@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GROWNIS — нишевое маркетинговое агентство</title>
-<meta name="description" content="Нишевое маркетинговое агентство, объединяющее 25+ лет опыта, AI-инструменты и сеть проверенных партнёров. Senior expertise. AI speed. End-to-end growth.">
+<title>GROWNIS — маркетинговое агентство</title>
+<meta name="description" content="Маркетинговое агентство, объединяющее 25+ лет опыта, AI-инструменты и сеть проверенных партнёров. Senior expertise. AI speed.">
 <link rel="stylesheet" href="grownis.css">
 </head>
 <body>
@@ -20,16 +20,28 @@
       <a href="#about">О нас</a>
       <a href="#cta">Контакты</a>
     </nav>
-    <a class="btn btn-signal" href="#cta" style="padding:9px 16px">Связаться</a>
+    <a class="btn btn-signal topbar-cta" href="#cta" style="padding:9px 16px">Связаться</a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="mmenu"><span></span><span></span><span></span></button>
   </div>
 </header>
+
+<!-- мобильное меню -->
+<div class="mobile-menu" id="mmenu" aria-hidden="true">
+  <nav>
+    <a href="#results">Кейсы</a>
+    <a href="#services">Что делаем</a>
+    <a href="#how">Как работаем</a>
+    <a href="#about">О нас</a>
+    <a href="#cta">Контакты</a>
+  </nav>
+  <a class="btn btn-signal" href="#cta">Связаться →</a>
+</div>
 
 <!-- ===== S1 · HERO ===== -->
 <div class="hero" id="top">
   <div class="wrap">
-    <div class="eyebrow">We make growth make sense</div>
-    <h1>Senior expertise.<br>AI speed.<br>End-to-end <span class="accent">growth.</span></h1>
-    <p class="lede">Нишевое маркетинговое агентство, объединяющее 25+ лет опыта, AI-инструменты и сеть проверенных партнёров.</p>
+    <h1>Senior expertise.<br><span class="accent">AI speed.</span></h1>
+    <p class="lede">Маркетинговое агентство, объединяющее 25+ лет опыта, AI-инструменты и сеть проверенных партнёров.</p>
     <div class="hero-cta">
       <a class="btn btn-signal" href="#cta">Связаться →</a>
       <a class="btn btn-ghost" href="#services">Что делаем</a>
@@ -40,46 +52,58 @@
 <!-- ===== S2 · КЕЙСЫ / БРЕНДЫ И РЕЗУЛЬТАТЫ ===== -->
 <section id="results">
   <div class="wrap">
-    <div class="eyebrow">01 — Бренды и результаты</div>
     <div class="sec-head">
       <h2>Результаты<br>в цифрах</h2>
-      <p>Опыт — от enterprise-брендов с многомиллионной аудиторией до высокотехнологичных AI-проектов; от охватных кампаний до управления полным жизненным циклом клиента.</p>
+      <p>Опыт — от enterprise-брендов с многомиллионной аудиторией до высокотехнологичных AI-проектов.</p>
     </div>
-    <div class="results">
-      <div class="result">
-        <div class="co">Agentic RAG Challenge</div>
-        <div class="who">Соревнование по разработке AI-решений в области права.</div>
-        <div class="res">Привлечение 356 команд за месяц при плане 100.</div>
+    <div class="case-grid">
+      <div class="case">
+        <div class="case-top"><div class="case-co">Agentic RAG Challenge</div></div>
+        <div class="case-who">Соревнование по разработке AI-решений в области права.</div>
+        <div class="case-metrics">
+          <div class="metric"><div class="big">356</div><div class="cap">Команд за месяц · план был 100</div></div>
+          <div class="metric"><div class="big">−15<span class="u">%</span></div><div class="cap">Сейвинг бюджета на продвижение</div></div>
+        </div>
       </div>
-      <div class="result">
-        <div class="co">Telesniy</div>
-        <div class="who">Российский бренд уходовой косметики для тела.</div>
-        <div class="res">Операционный аудит выявил +22% потенциала выручки без рекламного бюджета; сформулирован роадмап роста на год.</div>
+      <div class="case">
+        <div class="case-top"><div class="case-co">Telesniy</div></div>
+        <div class="case-who">Российский бренд уходовой косметики для тела.</div>
+        <div class="case-metrics">
+          <div class="metric"><div class="big">+22<span class="u">%</span></div><div class="cap">Потенциал выручки без бюджета</div></div>
+          <div class="metric"><div class="big">+5</div><div class="cap">Новых продуктов к разработке и запуску</div></div>
+        </div>
       </div>
-      <div class="result">
-        <div class="co">S7 Airlines</div>
-        <div class="who">Крупнейшая частная авиакомпания России.</div>
-        <div class="res">×3 к эффективности кампаний, −60% к стоимости привлечения (по атрибуции).</div>
+      <div class="case">
+        <div class="case-top"><div class="case-co">S7 Airlines</div></div>
+        <div class="case-who">Крупнейшая частная авиакомпания России.</div>
+        <div class="case-metrics">
+          <div class="metric"><div class="big"><span class="u">×</span>3</div><div class="cap">Эффективность кампаний</div></div>
+          <div class="metric"><div class="big">−60<span class="u">%</span></div><div class="cap">Стоимость привлечения</div></div>
+        </div>
       </div>
-      <div class="result">
-        <div class="co">Coca-Cola</div>
-        <div class="who">Категория Stills (BonAqua, Fuse Tea, Costa Coffee и др.).</div>
-        <div class="res">+5% к бренд-метрикам, +60% продаж по отдельным продуктам (в период пандемии).</div>
+      <div class="case">
+        <div class="case-top"><div class="case-co">Coca-Cola</div></div>
+        <div class="case-who">Категория Stills (BonAqua, Fuse Tea, Costa Coffee и др.).</div>
+        <div class="case-metrics">
+          <div class="metric"><div class="big">+60<span class="u">%</span></div><div class="cap">Продажи отдельных продуктов</div></div>
+          <div class="metric"><div class="big">+5<span class="u">%</span></div><div class="cap">Бренд-метрики</div></div>
+        </div>
       </div>
-      <div class="result">
-        <div class="co">Sportmaster</div>
-        <div class="who">Крупнейший спортивный ритейлер Восточной Европы, 30M+ клиентов.</div>
-        <div class="res">+60% к эффективности direct-каналов, +30% к частоте покупок.</div>
+      <div class="case">
+        <div class="case-top"><div class="case-co">Sportmaster</div></div>
+        <div class="case-who">Крупнейший спортивный ритейлер Восточной Европы, 30M+ клиентов.</div>
+        <div class="case-metrics">
+          <div class="metric"><div class="big">+60<span class="u">%</span></div><div class="cap">Эффективность direct-каналов</div></div>
+          <div class="metric"><div class="big">+30<span class="u">%</span></div><div class="cap">Частота покупок</div></div>
+        </div>
       </div>
-      <div class="result">
-        <div class="co">Петрович</div>
-        <div class="who">Топ-3 DIY-ритейлер России, 3.7M онлайн-заказов в год.</div>
-        <div class="res">×2,5 к доходу direct-каналов, ×3 к охвату.</div>
-      </div>
-      <div class="result">
-        <div class="co">Aizel</div>
-        <div class="who">Люксовый fashion-ритейл (Gucci, Valentino и др.).</div>
-        <div class="res">60% выручки email-канала — с автоматизации, +20% к open rate.</div>
+      <div class="case">
+        <div class="case-top"><div class="case-co">Петрович</div></div>
+        <div class="case-who">Топ-3 DIY-ритейлер России, 3.7M онлайн-заказов в год.</div>
+        <div class="case-metrics">
+          <div class="metric"><div class="big"><span class="u">×</span>2,5</div><div class="cap">Доход direct-каналов</div></div>
+          <div class="metric"><div class="big"><span class="u">×</span>3</div><div class="cap">Охват</div></div>
+        </div>
       </div>
     </div>
   </div>
@@ -88,7 +112,6 @@
 <!-- ===== S3 · ЧТО ДЕЛАЕМ ===== -->
 <section id="services" class="section-card">
   <div class="wrap">
-    <div class="eyebrow">02 — Что делаем</div>
     <div class="sec-head">
       <h2>Что мы делаем</h2>
       <p>Выстраиваем систему роста, подключая необходимые компетенции на каждом этапе развития.</p>
@@ -96,55 +119,47 @@
     <div class="pillars">
       <div class="pillar"><div class="n">/ 01</div><h3>Исследования</h3><p>Аудитория, JTBD-интервью, конкурентный анализ, анализ продуктовой линейки.</p></div>
       <div class="pillar"><div class="n">/ 02</div><h3>Стратегия и позиционирование</h3><p>Стратегия роста, платформа бренда, вывод на рынок.</p></div>
-      <div class="pillar"><div class="n">/ 03</div><h3>Привлечение</h3><p>Медиа и перформанс, SEM.</p></div>
+      <div class="pillar"><div class="n">/ 03</div><h3>Привлечение и удержание</h3><p>Медиа и перформанс, SEM; жизненный цикл клиента, лояльность, промо, триггерные коммуникации.</p></div>
       <div class="pillar"><div class="n">/ 04</div><h3>Контент, SMM, PR</h3><p>Контент-система, соцсети, PR, работа с блогерами и амбассадорами.</p></div>
-      <div class="pillar"><div class="n">/ 05</div><h3>Удержание (CRM)</h3><p>Жизненный цикл клиента, CDP, лояльность, промо, триггерные коммуникации.</p></div>
+      <div class="pillar"><div class="n">/ 05</div><h3>Интеграция и настройка</h3><p>Интеграция коммуникационных платформ (CRM, CDP, персонализация), подключение и координация подрядчиков.</p></div>
       <div class="pillar"><div class="n">/ 06</div><h3>Маркетплейсы</h3><p>Карточки, аналитика кабинетов, реклама на Amazon / Ozon / WB.</p></div>
     </div>
   </div>
 </section>
 
-<!-- ===== S4 · КАК РАБОТАЕМ ===== -->
+<!-- ===== S4 · ПРИНЦИПЫ ===== -->
 <section id="how">
   <div class="wrap">
-    <div class="eyebrow">03 — Как работаем</div>
-    <div class="sec-head">
-      <h2>Как мы работаем</h2>
-      <p>Два принципа и прозрачный процесс — от диагностики до ведения в роли вашего Head of Growth.</p>
+    <div class="sec-head"><h2>Принципы</h2></div>
+    <div class="principles">
+      <div class="principle"><div class="k">/ 01</div><h3>Senior × AI</h3><p>Эксперт задаёт направление, AI берёт объём и итерации, эксперт валидирует результат. Качество сеньоров на скорости AI — без джунов на вашем проекте.</p></div>
+      <div class="principle"><div class="k">/ 02</div><h3>Data-driven</h3><p>Каждое решение — из данных и анализа. Прозрачная отчётность на каждом этапе.</p></div>
     </div>
+  </div>
+</section>
 
-    <div class="grid-2" style="margin-bottom:var(--gap)">
-      <div class="panel dark">
-        <h4>Принцип</h4>
-        <h3 style="font-size:24px;text-transform:uppercase;margin-bottom:12px">Senior × AI</h3>
-        <p style="color:#C9C4C4;font-size:15px">Эксперт задаёт направление, AI берёт объём и итерации, эксперт валидирует результат. Качество сеньоров на скорости AI — без джунов на вашем проекте.</p>
-      </div>
-      <div class="panel">
-        <h4>Принцип</h4>
-        <h3 style="font-size:24px;text-transform:uppercase;margin-bottom:12px">Data-driven</h3>
-        <p style="color:var(--slate);font-size:15px">Каждое решение — из данных и анализа. Прозрачная отчётность на каждом этапе.</p>
-      </div>
+<!-- ===== S5 · ПРОЦЕСС ===== -->
+<section class="section-card">
+  <div class="wrap">
+    <div class="sec-head"><h2>Процесс</h2></div>
+    <div class="timeline">
+      <div class="st"><div class="k">/ 01</div><h4>Диагностика</h4><p>Аудит, разрывы, точки роста</p></div>
+      <div class="st"><div class="k">/ 02</div><h4>Стратегия</h4><p>Цели, аудитория, план</p></div>
+      <div class="st"><div class="k">/ 03</div><h4>Построение системы</h4><p>Инструменты, автоматизация</p></div>
+      <div class="st"><div class="k">/ 04</div><h4>Ведение</h4><p>Фракционная growth-команда</p></div>
+      <div class="st"><div class="k">/ 05</div><h4>Отчётность</h4><p>Оптимизация и выводы</p></div>
     </div>
+  </div>
+</section>
 
-    <div class="grid-2">
-      <div class="panel">
-        <h4>Процесс</h4>
-        <ul class="numlist">
-          <li><span class="idx">/ 01</span><span class="txt"><b>Диагностика</b><span>Аудит ситуации, разрывы и точки роста</span></span></li>
-          <li><span class="idx">/ 02</span><span class="txt"><b>Стратегия</b><span>Цели, аудитория, план, метрики</span></span></li>
-          <li><span class="idx">/ 03</span><span class="txt"><b>Построение системы</b><span>Настройка инструментов, автоматизация процессов</span></span></li>
-          <li><span class="idx">/ 04</span><span class="txt"><b>Ведение и итерации</b><span>Фракционная growth-команда</span></span></li>
-          <li><span class="idx">/ 05</span><span class="txt"><b>Прозрачная отчётность</b><span>Понятные метрики на каждом этапе</span></span></li>
-        </ul>
-      </div>
-      <div class="panel">
-        <h4>Форматы работы</h4>
-        <ul class="numlist">
-          <li><span class="idx">/ 01</span><span class="txt"><b>Проект / под KPI</b><span>Одна задача или метрика, понятный результат и срок</span></span></li>
-          <li><span class="idx">/ 02</span><span class="txt"><b>Setup</b><span>Разовый фундамент: исследование, стратегия, позиционирование, запуск</span></span></li>
-          <li><span class="idx">/ 03</span><span class="txt"><b>Ongoing</b><span>Постоянное ведение в роли вашего Head of Growth на part-time</span></span></li>
-        </ul>
-      </div>
+<!-- ===== S6 · ФОРМАТЫ РАБОТЫ ===== -->
+<section>
+  <div class="wrap">
+    <div class="sec-head"><h2>Форматы работы</h2></div>
+    <div class="grid-3">
+      <div class="fcard"><div class="n">/ 01</div><h3>Проект / под KPI</h3><p>Одна задача или метрика, понятный результат и срок.</p></div>
+      <div class="fcard"><div class="n">/ 02</div><h3>Setup</h3><p>Разовый фундамент: исследование, стратегия, позиционирование, запуск.</p></div>
+      <div class="fcard"><div class="n">/ 03</div><h3>Ongoing</h3><p>Постоянное ведение в роли вашего Head of Growth на part-time.</p></div>
     </div>
   </div>
 </section>
@@ -152,10 +167,9 @@
 <!-- ===== S5 · О НАС + КОМАНДА ===== -->
 <section id="about" class="section-card">
   <div class="wrap">
-    <div class="eyebrow">04 — О нас</div>
     <div class="sec-head">
       <h2>Кто мы</h2>
-      <p>GROWNIS — эксперты по росту: от анализа аудиторий и разработки продуктовых линеек до охватных кампаний и управления жизненным циклом брендов. 25+ лет совокупного опыта, AI-инфраструктура под контролем сеньоров и проверенные подрядчики. Базируемся в Барселоне, работаем с проектами по всему миру.</p>
+      <p>GROWNIS — это Мария Братчикова и Алёна Козлова. Мы эксперты по росту, сопровождаем компании от поиска инсайтов до масштабирования бизнеса. 25+ лет совокупного опыта, AI-инфраструктура и проверенные подрядчики. Базируемся в Барселоне, работаем с проектами по всему миру.</p>
     </div>
     <div class="team">
       <div class="member">
@@ -183,7 +197,7 @@
   <div class="wrap">
     <div class="cta">
       <h2>Поговорим о вашем росте</h2>
-      <p>Расскажите о задаче — посмотрим, где точка роста, и ответим, чем можем быть полезны.</p>
+      <p>Расскажите о задаче.<br>Ответим, чем можем быть полезны.</p>
       <div class="btn-row">
         <a class="btn btn-signal" href="https://www.linkedin.com/in/maria-bratchikova/" target="_blank" rel="noopener">LinkedIn (Maria) →</a>
         <a class="btn btn-ghost" href="https://t.me/nobodytodance" target="_blank" rel="noopener">Telegram @nobodytodance</a>
@@ -204,5 +218,20 @@
   </div>
 </footer>
 
+<script>
+(function(){
+  var b=document.getElementById('burger'), m=document.getElementById('mmenu');
+  if(!b||!m) return;
+  function set(open){
+    b.classList.toggle('open',open);
+    m.classList.toggle('open',open);
+    b.setAttribute('aria-expanded',open);
+    m.setAttribute('aria-hidden',!open);
+    document.body.style.overflow=open?'hidden':'';
+  }
+  b.addEventListener('click',function(){set(!m.classList.contains('open'));});
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){set(false);});});
+})();
+</script>
 </body>
 </html>
