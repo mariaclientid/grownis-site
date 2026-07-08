@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /score/s/
 
 Sitemap: https://grownis.com/sitemap.xml

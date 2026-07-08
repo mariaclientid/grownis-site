@@ -97,6 +97,7 @@ section.wrap{padding-top:var(--section-y);padding-bottom:var(--section-y)} /* е
 .topbar-right{display:flex;align-items:center;gap:18px}
 .lang{font-family:var(--font-mono);font-size:12px;letter-spacing:.04em;display:flex;gap:6px;align-items:center}
 .lang .on{color:var(--ink)} .lang .sep{color:var(--slate)} .lang .off{color:var(--slate);opacity:.55;cursor:default}
+.nav-tag{font-family:var(--font-mono);font-size:9px;letter-spacing:.06em;text-transform:uppercase;color:#fff;background:var(--accent);padding:2px 6px;border-radius:100px;vertical-align:middle;margin-left:5px;position:relative;top:-1px}
 
 /* выпадашка «Экспертиза» */
 .nav-drop{position:relative;display:flex;align-items:center}
