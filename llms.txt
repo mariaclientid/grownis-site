@@ -5,9 +5,11 @@
 GROWNIS owns a client's growth funnel under a single point of accountability, acting as a fractional Head of Growth. Senior experts set direction, AI agents handle the volume, and experts validate the result — the Senior × AI model. No juniors on client projects. The agency covers the full funnel: from research and positioning to acquisition, content, data, and retention, plus marketplaces.
 
 ## Pages
-- [Home — RU](https://grownis.com/): Russian landing — cases with numbers, solutions, focused expertise, principles, process, engagement models, team, contact.
-- [Home — EN](https://grownis.com/en/): English version of the landing.
+- [Home — EN](https://grownis.com/): English landing — cases, solutions, focused expertise, principles, engagement models, team, contact.
+- [Home — RU](https://grownis.com/ru/): Russian version of the landing.
+- [Tech events](https://grownis.com/tech-ai-events/): Marketing for launching AI/tech events — conferences, hackathons, competitions, demo days, summits.
 - [Growth Score](https://grownis.com/score/): Free 3-minute growth diagnostic — 12 questions across 6 areas, a 0–36 score, a tier (Chaotic / Reactive / Systematic / Compounding), and fix playbooks.
+- [Growth Score — RU](https://grownis.com/ru/score/): Russian version of the growth diagnostic.
 
 ## Services
 - Research & Insight — audience, JTBD interviews, market and competitive analysis, product-line review.
