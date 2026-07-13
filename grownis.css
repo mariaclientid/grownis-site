@@ -239,6 +239,12 @@ section.wrap{padding-top:var(--section-y);padding-bottom:var(--section-y)} /* е
 .principles{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap)}
 @media(max-width:640px){.principles{grid-template-columns:1fr}}
 .principle{border:1px solid var(--line);border-radius:10px;background:var(--paper-card);padding:30px}
+.section-dark .principle{background:var(--ink-soft);border-color:var(--ink-soft)}
+.section-dark .principle p{color:#9A9494}
+/* тёмные карточки принципов на обычном (светлом) фоне секции */
+.principle.dark{background:var(--ink);border-color:var(--ink)}
+.principle.dark h3{color:var(--paper)}
+.principle.dark p{color:#9A9494}
 .principle .k{font-family:var(--font-mono);font-size:12px;color:var(--accent);letter-spacing:.06em}
 .principle h3{font-size:24px;text-transform:uppercase;margin:12px 0 12px}
 .principle p{font-size:15px;color:var(--slate)}
@@ -280,6 +286,70 @@ section.wrap{padding-top:var(--section-y);padding-bottom:var(--section-y)} /* е
 .case-metrics .big{font-family:var(--font-display);font-weight:900;font-stretch:125%;font-size:clamp(38px,4.6vw,58px);line-height:.95;letter-spacing:-.02em;color:var(--accent)}
 .case-metrics .big .u{color:var(--ink)} /* знаки ×/% — чёрные, значение — красное */
 .case-metrics .cap{font-family:var(--font-mono);font-size:11px;line-height:1.5;letter-spacing:.04em;text-transform:uppercase;color:var(--slate);margin-top:14px}
+/* attributed quotes — two variants */
+.quote-accent{border-left:3px solid var(--accent);padding:8px 0 8px 28px;max-width:860px}
+.quote-accent p{font-family:var(--font-display);font-weight:700;font-stretch:110%;font-size:clamp(20px,2.6vw,28px);line-height:1.3;color:var(--ink);letter-spacing:-.01em;margin:0}
+.quote-accent cite{display:block;font-style:normal;font-family:var(--font-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--slate);margin-top:18px}
+.quote-accent cite b{color:var(--accent)}
+.quote-band{background:var(--ink);color:var(--paper);border-radius:var(--radius);padding:30px 34px;max-width:900px}
+.quote-band p{font-family:var(--font-display);font-weight:700;font-stretch:110%;font-size:clamp(18px,2.3vw,24px);line-height:1.3;color:var(--paper);margin:0}
+.quote-band cite{display:block;font-style:normal;font-family:var(--font-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:#9A9494;margin-top:16px}
+.quote-band cite b{color:var(--accent)}
+/* facts rows — Client / Goal / Context (3 modifiers: cols · stack · inline) */
+.facts{border-top:1px solid var(--line)}
+.facts>div{padding:16px 0;border-bottom:1px solid var(--line)}
+.facts .fk{font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent)}
+.facts .fv{font-size:15px;color:var(--ink);line-height:1.55}
+.facts .fv b{color:var(--ink);font-weight:600}
+.facts.cols>div{display:grid;grid-template-columns:120px 1fr;gap:22px;align-items:baseline}
+.facts.stack .fk{margin-bottom:8px}
+.facts.inline .fv .lead-in{font-family:var(--font-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-right:12px}
+@media(max-width:520px){.facts.cols>div{grid-template-columns:1fr;gap:6px}}
+/* metric cards — one metric per card (two-tone .big / .u, mono .cap) */
+.metric-cards{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--gap)}
+.metric-cards .mc{background:var(--paper-card);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px}
+.metric-cards .mc .big{font-family:var(--font-display);font-weight:900;font-stretch:125%;font-size:clamp(34px,4vw,50px);line-height:.95;letter-spacing:-.02em;color:var(--accent)}
+.metric-cards .mc .big .u{color:var(--ink)}
+.metric-cards .mc .cap{font-family:var(--font-mono);font-size:11px;line-height:1.5;letter-spacing:.04em;text-transform:uppercase;color:var(--slate);margin-top:14px}
+@media(max-width:720px){.metric-cards{grid-template-columns:1fr 1fr}}
+@media(max-width:460px){.metric-cards{grid-template-columns:1fr}}
+/* metrics as 2×2 grid inside a .case card */
+.case-metrics.grid-2x2{display:grid;grid-template-columns:1fr 1fr;gap:28px 40px}
+/* services — W2: numbered funnel list */
+.svc-flow{border-top:1px solid var(--line)}
+.svc-flow .row{display:grid;grid-template-columns:54px 1fr;gap:20px;padding:24px 0;border-bottom:1px solid var(--line);align-items:start}
+.svc-flow .num{font-family:var(--font-display);font-weight:900;font-stretch:125%;font-size:26px;color:var(--accent);line-height:1}
+.svc-flow h3{font-size:18px;text-transform:uppercase;margin-bottom:7px}
+.svc-flow p{font-size:14px;color:var(--slate);max-width:640px;margin:0}
+.svc-flow .out{font-family:var(--font-mono);font-size:12px;line-height:1.5;color:var(--ink);margin-top:10px}
+.svc-flow .out b{color:var(--accent);font-weight:400}
+/* services — W3: definition rows (title | desc + output) */
+.svc-rows{border-top:1px solid var(--line)}
+.svc-rows .row{display:grid;grid-template-columns:210px 1fr;gap:30px;padding:24px 0;border-bottom:1px solid var(--line)}
+.svc-rows .t{font-family:var(--font-display);font-weight:800;font-stretch:115%;font-size:19px;text-transform:uppercase;color:var(--ink);line-height:1.1}
+.svc-rows .d p{font-size:14px;color:var(--slate);margin:0;max-width:620px}
+.svc-rows .d .out{font-family:var(--font-mono);font-size:12px;line-height:1.5;color:var(--ink);margin-top:10px}
+.svc-rows .d .out b{color:var(--accent);font-weight:400}
+@media(max-width:640px){.svc-rows .row{grid-template-columns:1fr;gap:8px}}
+/* pains — карточки-реплицы 2×2, акцент: accent-line / accent-sub / accent-head */
+.pain-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap)}
+.pain{background:var(--paper-card);border:1px solid var(--line);border-radius:var(--radius);padding:26px 30px 28px}
+.pain h3{font-family:var(--font-display);font-weight:800;font-stretch:110%;font-size:19px;line-height:1.2;color:var(--ink);text-transform:none;margin-bottom:10px}
+.pain p{font-size:14px;color:var(--slate);margin:0}
+.pain-grid.accent-line .pain{border-left:3px solid var(--accent)}
+.pain-grid.accent-sub .pain p{color:var(--accent)}
+.pain-grid.accent-head .pain h3{color:var(--accent)}
+@media(max-width:640px){.pain-grid{grid-template-columns:1fr}}
+/* capstone — выделенная услуга / итог как тёмная плашка (в стиле quote-band) */
+.capstone{margin-top:26px;background:var(--ink);color:var(--paper);border-radius:var(--radius);padding:34px 38px}
+.capstone .ey{font-family:var(--font-mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:16px}
+.capstone h3{font-size:clamp(22px,3vw,30px);text-transform:uppercase;color:var(--paper);line-height:1.05;margin-bottom:14px}
+.capstone p{font-size:15px;color:#C9C4C4;margin:0;max-width:680px}
+.capstone .out{font-family:var(--font-mono);font-size:13px;line-height:1.5;color:var(--paper);margin-top:20px;padding-top:18px;border-top:1px solid rgba(255,255,255,.14)}
+.capstone .out b{color:var(--accent);font-weight:400;text-transform:uppercase;letter-spacing:.06em;font-size:11px;margin-right:8px}
+/* white-label строка под H1 */
+.wl-line{font-family:var(--font-mono);font-size:13px;letter-spacing:.04em;color:var(--ink);margin:6px 0 26px}
+.wl-line b{color:var(--accent);font-weight:400}
 
 /* ===== GROWTH SCORE promo band ===== */
 .gs-band{background:var(--paper-card);border:1px solid var(--line);border-radius:var(--radius);padding:40px;display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap}

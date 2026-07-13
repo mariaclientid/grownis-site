@@ -7,6 +7,7 @@ GROWNIS owns a client's growth funnel under a single point of accountability, ac
 ## Pages
 - [Home — EN](https://grownis.com/): English landing — cases, solutions, focused expertise, principles, engagement models, team, contact.
 - [Home — RU](https://grownis.com/ru/): Russian version of the landing.
+- [For agencies — Data & Growth partner](https://grownis.com/data-growth-agencies/): White-label / co-branded data & growth expertise for creative and branding agencies — research, strategy, acquisition, retention, and a data backbone for pitches. RU: https://grownis.com/ru/data-growth-agencies/
 - [Tech events](https://grownis.com/tech-ai-events/): Marketing for launching AI/tech events — conferences, hackathons, competitions, demo days, summits.
 - [Growth Score](https://grownis.com/score/): Free 3-minute growth diagnostic — 12 questions across 6 areas, a 0–36 score, a tier (Chaotic / Reactive / Systematic / Compounding), and fix playbooks.
 - [Growth Score — RU](https://grownis.com/ru/score/): Russian version of the growth diagnostic.
@@ -20,10 +21,24 @@ GROWNIS owns a client's growth funnel under a single point of accountability, ac
 - Marketplaces — seller-account analytics, growth strategy, ad campaigns on Amazon / Ozon / WB.
 
 ## Focused expertise
-- Data & Growth partner for agencies
-- Marketplace growth
-- Tech products with niche audiences (AI, SaaS, developer platforms)
-- CRM architecture & communication automation
+- Data & Growth partner for agencies (white-label / co-branded) — live
+- Tech events — marketing for AI conferences, hackathons, competitions, demo days, summits — live
+- Marketplace growth — coming soon
+- CRM architecture & communication automation — coming soon
+
+## Selected results
+- Agentic RAG Challenge (AI / legal-tech competition): 356 teams registered against a target of 100 (3.5×) within a two-week promotion window; ~72% email open rate; 137 solution submissions.
+- S7 Airlines: ×3 campaign efficiency, −60% cost per acquisition.
+- Sportmaster: +60% direct-channel efficiency, +30% purchase frequency.
+- Petrovich: ×2.5 direct-channel revenue, ×3 reach.
+- Coca-Cola (stills): +60% sales of select products, +5% brand metrics.
+
+## FAQ
+- What is GROWNIS? A full-funnel marketing agency acting as a fractional Head of Growth under a single point of accountability.
+- What is the Senior × AI model? Senior experts set direction, AI agents handle volume and iterations, and experts validate the result — senior-level quality at AI speed, with no juniors on client projects.
+- How does GROWNIS work with agencies? As a white-label or co-branded data & growth partner — the agency stays the face to the client while GROWNIS provides research, analytics, acquisition and retention behind the scenes.
+- Where is GROWNIS based? Barcelona, Spain — working with projects worldwide.
+- What languages does GROWNIS work in? English and Russian.
 
 ## Founders
 - Maria Bratchikova — customer lifecycle, retention and loyalty, product management; 15+ years in Martech.
