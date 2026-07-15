@@ -40,6 +40,16 @@ GROWNIS owns a client's growth funnel under a single point of accountability, ac
 - Where is GROWNIS based? Barcelona, Spain — working with projects worldwide.
 - What languages does GROWNIS work in? English and Russian.
 
+## Tech events — FAQ
+- What is tech event marketing? Attracting, converting and retaining the right specialised audience — software engineers, AI researchers, developers, founders and technical decision-makers — for conferences, hackathons, competitions, demo days and summits, through the channels they actually use.
+- What does GROWNIS do for tech events? Full-funnel marketing: positioning, participant acquisition, lifecycle communications (registration → attendance → community) and performance measurement.
+- What types of events? Conferences, hackathons, AI competitions, developer events, startup demo days, innovation challenges and technology summits — strongest in AI, developer, enterprise-tech and deep-tech.
+- How do you reach a niche technical audience? Go where they already are — developer communities, Discord/Telegram, GitHub, Hugging Face, Kaggle, LinkedIn, universities, partners and specialised media — on top of an analytics-driven registration funnel from first touch to registration.
+- How do you increase attendance (show rate)? Pre-event lifecycle communication (welcome sequences, reminders, countdowns, milestone announcements) plus post-event flows that turn a one-off event into a returning community.
+- How do you measure success? By business outcomes, not registrations alone: qualified registrations, attendance rate, submission rate, cost per registration/attendee, email engagement, community growth and post-event retention.
+- Can you launch and promote an event in a few weeks? Yes. The Agentic RAG Challenge (a global legal-AI competition during Dubai AI Week) ran on a two-week promotion window: 356 teams vs a target of 100 (3.5×), 137 submissions and ~72% email open rates.
+- How is it different from traditional event marketing? It reaches niche technical audiences that broad advertising misses — via community marketing, technical content, partnerships, developer platforms and PR — optimising for qualified, engaged participants rather than raw registration numbers.
+
 ## Founders
 - Maria Bratchikova — customer lifecycle, retention and loyalty, product management; 15+ years in Martech.
 - Alyona Kozlova — media, brand and performance strategy; 15+ years (OMD, GroupM, Dentsu; S7, Coca-Cola, pharma).
