@@ -88,9 +88,9 @@ section.wrap{padding-top:var(--section-y);padding-bottom:var(--section-y)} /* е
 .mobile-menu .btn{margin-top:26px;align-self:flex-start}
 @media(max-width:720px){
   .topbar nav{display:none}
-  .topbar-cta{display:none}
+  .topbar-right .topbar-cta{display:none}
   .burger{display:flex}
-  .cta-icon{display:inline-flex}
+  .topbar-right .cta-icon{display:inline-flex}
   .topbar-right{gap:12px}
 }
 
