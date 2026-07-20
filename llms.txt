@@ -11,6 +11,7 @@ GROWNIS owns a client's growth funnel under a single point of accountability, ac
 - [Tech events](https://grownis.com/tech-ai-events/): Marketing for launching AI/tech events — conferences, hackathons, competitions, demo days, summits.
 - [Growth Score](https://grownis.com/score/): Free 3-minute growth diagnostic — 12 questions across 6 areas, a 0–36 score, a tier (Chaotic / Reactive / Systematic / Compounding), and fix playbooks.
 - [Growth Score — RU](https://grownis.com/ru/score/): Russian version of the growth diagnostic.
+- [Рост на маркетплейсах — RU](https://grownis.com/ru/marketplaces/): Marketplace growth for brands on Ozon and Wildberries — card audit and optimization, assortment and product analytics, in-platform ads, A/B tests, and dashboards. Russian-only page.
 
 ## Services
 - Research & Insight — audience, JTBD interviews, market and competitive analysis, product-line review.
@@ -18,12 +19,11 @@ GROWNIS owns a client's growth funnel under a single point of accountability, ac
 - Acquisition & Retention — media and performance, SEM; customer lifecycle, loyalty, promo, trigger communication.
 - Content, Social & PR — content system, social, PR, creators and ambassadors.
 - Integration & Setup — CRM, CDP and personalization platforms; onboarding and coordinating contractors.
-- Marketplaces — seller-account analytics, growth strategy, ad campaigns on Amazon / Ozon / WB.
 
 ## Focused expertise
 - Data & Growth partner for agencies (white-label / co-branded) — live
 - Tech events — marketing for AI conferences, hackathons, competitions, demo days, summits — live
-- Marketplace growth — coming soon
+- Marketplace growth on Ozon / Wildberries (Russian market) — live at /ru/marketplaces/
 - CRM architecture & communication automation — coming soon
 
 ## Selected results
