@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -81,23 +82,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <div class="wrap">
     <a class="wordmark" href="/ru/">GROWNIS<span class="dot">.</span></a>
     <nav>
-      <a href="/ru/#results">Кейсы</a>
-      <a href="/ru/#services">Решения</a>
-      <div class="nav-drop">
-        <a class="nav-drop-t" href="/ru/#expertise" aria-haspopup="true">Экспертиза <span class="caret" aria-hidden="true">▾</span></a>
-        <div class="nav-drop-menu" role="menu">
-          <a class="nav-soon nav-live" href="/ru/data-growth-agencies/">Для агентств</a>
-          <a class="nav-soon nav-live" href="/ru/marketplaces/">Рост на маркетплейсах</a>
-          <a class="nav-soon nav-live" href="/tech-ai-events/">Tech events</a>
-          <span class="nav-soon">CRM-архитектура<em>coming soon</em></span>
-        </div>
-      </div>
+      <a href="/ru/#what-we-do">Что делаем</a>
       <a href="/ru/#about">О нас</a>
-      <a href="/ru/score/">Growth Score</a>
+      <a href="/ru/#cases">Кейсы</a>
+      <a href="#cta">Контакты</a>
     </nav>
     <div class="topbar-right">
       <div class="lang" aria-label="Язык"><a class="off" href="/">EN</a><span class="sep">/</span><span class="on">RU</span></div>
-      <a class="btn btn-signal topbar-cta" href="#cta" style="padding:9px 16px">Связаться</a>
       <a class="cta-icon" href="#cta" aria-label="Связаться"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg></a>
       <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="mmenu"><span></span><span></span><span></span></button>
     </div>
@@ -107,20 +98,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- мобильное меню -->
 <div class="mobile-menu" id="mmenu" aria-hidden="true">
   <nav>
-    <a href="/ru/#results">Кейсы</a>
-    <a href="/ru/#services">Решения</a>
-    <div class="mm-group">
-      <a class="mm-group-t" href="/ru/#expertise">Экспертиза</a>
-      <a class="mm-soon" href="/ru/data-growth-agencies/" style="color:var(--ink)">Для агентств</a>
-      <a class="mm-soon" href="/ru/marketplaces/" style="color:var(--ink)">Рост на маркетплейсах</a>
-      <a class="mm-soon" href="/tech-ai-events/" style="color:var(--ink)">Tech events</a>
-      <span class="mm-soon">CRM-архитектура<em>coming soon</em></span>
-    </div>
+    <a href="/ru/#what-we-do">Что делаем</a>
     <a href="/ru/#about">О нас</a>
-    <a href="/ru/score/">Growth Score</a>
+    <a href="/ru/#cases">Кейсы</a>
+    <a href="#cta">Контакты</a>
   </nav>
   <div class="mm-lang"><a class="off" href="/">EN</a> / <span class="on">RU</span></div>
-  <a class="btn btn-signal" href="#cta">Связаться →</a>
 </div>
 
 <!-- ===== HERO ===== -->
@@ -306,8 +289,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <div>
       <span class="wordmark">GROWNIS<span class="dot">.</span></span>
       <p style="margin-top:10px">Консалтинг и операционная экспертиза для брендов, готовых масштабироваться · Barcelona</p>
+      <p class="foot-links"><a href="/ru/data-growth-agencies/">Для агентств</a> · <a href="/tech-ai-events/">Tech events</a> · <a href="/ru/marketplaces/">Рост на маркетплейсах</a></p>
     </div>
-    <p>grownisteam@gmail.com · <a href="https://www.linkedin.com/company/grownis/" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://www.instagram.com/grownis.agency" target="_blank" rel="noopener">Instagram</a> · © 2026</p>
+    <p>grownisteam@gmail.com · <a href="https://www.linkedin.com/company/grownis/" target="_blank" rel="noopener">LinkedIn</a> · © 2026</p>
   </div>
 </footer>
 
@@ -318,6 +302,48 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   function set(open){b.classList.toggle('open',open);m.classList.toggle('open',open);b.setAttribute('aria-expanded',open);m.setAttribute('aria-hidden',!open);document.body.style.overflow=open?'hidden':'';}
   b.addEventListener('click',function(){set(!m.classList.contains('open'));});
   m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){set(false);});});
+})();
+</script>
+<script>
+/* GROWNIS v3 motion: fade-up reveal + custom cursor */
+(function(){
+  var rm = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(!rm && 'IntersectionObserver' in window){
+    var sel = '.hero .lede, .hero .hero-cta, .sec-head, .what-rows .row, .case, .member, .fcard, .principle, .exp-item, .metric-cards .mc, .svc, .pain, .quote-accent, .quote-band, .capstone, .facts, .steplist .row, .svc-flow .row, .svc-rows .row, .cta';
+    var els = [].slice.call(document.querySelectorAll(sel));
+    els.forEach(function(el){ el.classList.add('reveal'); });
+    void document.documentElement.offsetHeight; /* commit hidden state before revealing */
+    function show(el,d){ el.style.transitionDelay=(d||0)+'ms'; el.classList.add('in'); }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(e){ if(e.isIntersecting){ show(e.target,0); io.unobserve(e.target); } });
+    }, {threshold:.14, rootMargin:'0px 0px -10% 0px'});
+    var vh = window.innerHeight||800, n=0;
+    els.forEach(function(el){
+      var top = el.getBoundingClientRect().top;
+      if(top < vh*0.9){ /* already in view: staggered intro on load */
+        (function(el,delay){ setTimeout(function(){ show(el,0); }, delay); })(el, 100 + (n++)*90);
+      } else { io.observe(el); }
+    });
+  }
+  if(!rm && window.matchMedia('(pointer:fine)').matches){
+    var dot=document.createElement('div'); dot.className='cur-dot';
+    var ring=document.createElement('div'); ring.className='cur-ring';
+    document.body.appendChild(dot); document.body.appendChild(ring);
+    document.documentElement.classList.add('has-cursor');
+    var mx=innerWidth/2,my=innerHeight/2,rx=mx,ry=my,vis=false;
+    addEventListener('mousemove',function(e){
+      mx=e.clientX; my=e.clientY;
+      dot.style.transform='translate('+mx+'px,'+my+'px)';
+      if(!vis){vis=true;dot.style.opacity=1;ring.style.opacity=1;}
+    });
+    addEventListener('mouseout',function(e){ if(!e.relatedTarget){dot.style.opacity=0;ring.style.opacity=0;vis=false;} });
+    (function loop(){ rx+=(mx-rx)*.18; ry+=(my-ry)*.18; ring.style.transform='translate('+rx+'px,'+ry+'px)'; requestAnimationFrame(loop); })();
+    var hov='a,button,.btn,.case,.exp-item,.member,.fcard,.what-rows .row,summary';
+    document.querySelectorAll(hov).forEach(function(el){
+      el.addEventListener('mouseenter',function(){ring.classList.add('big')});
+      el.addEventListener('mouseleave',function(){ring.classList.remove('big')});
+    });
+  }
 })();
 </script>
 </body>

@@ -5,20 +5,17 @@
 GROWNIS owns a client's growth funnel under a single point of accountability, acting as a fractional Head of Growth. Senior experts set direction, AI agents handle the volume, and experts validate the result — the Senior × AI model. No juniors on client projects. The agency covers the full funnel: from research and positioning to acquisition, content, data, and retention, plus marketplaces.
 
 ## Pages
-- [Home — EN](https://grownis.com/): English landing — cases, solutions, focused expertise, principles, engagement models, team, contact.
+- [Home — EN](https://grownis.com/): English landing — what we do, who we are, engagement models, principles, cases, focused expertise, contact.
 - [Home — RU](https://grownis.com/ru/): Russian version of the landing.
 - [For agencies — Data & Growth partner](https://grownis.com/data-growth-agencies/): White-label / co-branded data & growth expertise for creative and branding agencies — research, strategy, acquisition, retention, and a data backbone for pitches. RU: https://grownis.com/ru/data-growth-agencies/
 - [Tech events](https://grownis.com/tech-ai-events/): Marketing for launching AI/tech events — conferences, hackathons, competitions, demo days, summits.
-- [Growth Score](https://grownis.com/score/): Free 3-minute growth diagnostic — 12 questions across 6 areas, a 0–36 score, a tier (Chaotic / Reactive / Systematic / Compounding), and fix playbooks.
-- [Growth Score — RU](https://grownis.com/ru/score/): Russian version of the growth diagnostic.
 - [Рост на маркетплейсах — RU](https://grownis.com/ru/marketplaces/): Marketplace growth for brands on Ozon and Wildberries — card audit and optimization, assortment and product analytics, in-platform ads, A/B tests, and dashboards. Russian-only page.
 
-## Services
-- Research & Insight — audience, JTBD interviews, market and competitive analysis, product-line review.
-- Strategy & Positioning — growth strategy, brand platform, go-to-market.
-- Acquisition & Retention — media and performance, SEM; customer lifecycle, loyalty, promo, trigger communication.
-- Content, Social & PR — content system, social, PR, creators and ambassadors.
-- Integration & Setup — CRM, CDP and personalization platforms; onboarding and coordinating contractors.
+## What we do
+- Positioning — problem definition & goals, segmentation, ICP & JTBD, competitor & category analysis, positioning & messaging, offer / value proposition.
+- Lead generation — paid media (Meta, Google, programmatic), SEM & SEO basics, landing pages & offers, tracking & attribution (UTM, GA4, CRM), funnel & A/B optimization.
+- Retention — lifecycle & CRM strategy, email & trigger flows (onboarding, win-back), loyalty & promo, RFM, cohorts, churn & LTV, personalization.
+- SMM & PR — content system & calendar, social media management, PR & media, creators & ambassadors, brand presence (cases & proof).
 
 ## Focused expertise
 - Data & Growth partner for agencies (white-label / co-branded) — live
