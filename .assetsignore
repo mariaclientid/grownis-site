@@ -4,5 +4,4 @@
 .wrangler
 node_modules
 wrangler.jsonc
-CNAME
 README.md
