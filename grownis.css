@@ -30,10 +30,11 @@
 
   /* — Scale / rhythm — */
   --maxw: 1280px;
-  --section-y: 72px;
+  --section-y: 88px;
   --gap: 24px;
   --radius: 8px;
   --radius-sm: 4px;
+  --ease: cubic-bezier(.22,.61,.36,1);
 }
 
 /* ===== BASE ===== */
@@ -492,9 +493,7 @@ span.soon{color:var(--stone);border-color:var(--line)}
 .case,.fcard,.member,.principle,.result,.pain,.svc,.metric-cards .mc{transition:transform .3s ease,border-color .3s ease,box-shadow .3s ease}
 .case:hover,.fcard:hover,.member:hover,.principle:hover,.result:hover,.pain:hover,.svc:hover,.metric-cards .mc:hover{transform:translateY(-3px);border-color:rgba(0,0,0,.32)}
 
-/* кнопки — стрелка чуть уезжает */
-.btn{transition:.2s,transform .2s ease}
-.btn:hover{transform:translateY(-1px)}
+/* кнопки — без движения на ховере (только цвет) */
 
 /* --- кастомный курсор (десктоп) --- */
 .has-cursor,.has-cursor a,.has-cursor button,.has-cursor .btn,.has-cursor summary{cursor:none}
@@ -504,9 +503,39 @@ span.soon{color:var(--stone);border-color:var(--line)}
   transition:width .22s ease,height .22s ease,margin .22s ease}
 .cur-ring.big{width:58px;height:58px;margin:-29px 0 0 -29px}
 
+/* ============================================================
+   LUXE PASS v3.1  ·  no numbers · word-slide · rotator · clip-wipe · draw-line · magnetic
+   ============================================================ */
+
+/* убрать нумерацию в блоках Engagement / Focused expertise / Principles */
+.fcard .n,.principle .k,.exp-item .k{display:none}
+.exp-item{grid-template-columns:300px 1fr auto}
+@media(max-width:760px){.exp-item{grid-template-columns:1fr}}
+
+/* word slide-up (стиль Флаковой) */
+.js .sw .w{display:inline-block;overflow:hidden;vertical-align:top;line-height:1.02}
+.js .sw .w>span{display:inline-block;transform:translateY(112%);transition:transform .9s var(--ease)}
+.js .sw.in .w>span{transform:none}
+
+/* hero rotator — смена ключевых слов */
+.hero-rotator{margin-top:26px;font-family:var(--font-display);font-weight:500;font-size:clamp(20px,2.4vw,30px);letter-spacing:-.03em;line-height:1.2;color:#fff;display:flex;gap:.4em;align-items:baseline;flex-wrap:wrap}
+.hero-rotator .rot-static{color:#B7B3AD}
+.hero-rotator .rot-word{display:inline-block;color:#fff;transition:transform .5s var(--ease),opacity .5s}
+.hero-rotator .rot-word.swap{transform:translateY(-65%);opacity:0}
+
+/* clip-wipe для фото команды */
+.js .rvclip{opacity:0;clip-path:inset(100% 0 0 0);transition:opacity .7s,clip-path 1.4s var(--ease)}
+.js .rvclip.in{opacity:1;clip-path:inset(0 0 0 0)}
+
+/* магнитные элементы */
+.mag{will-change:transform;transition:transform .25s var(--ease)}
+
 /* --- reduced-motion: всё выключаем --- */
 @media (prefers-reduced-motion: reduce){
   .hero::before,.hero::after{animation:none}
   .reveal{opacity:1;transform:none;transition:none}
   .case:hover,.fcard:hover,.member:hover,.principle:hover,.result:hover,.pain:hover,.svc:hover,.metric-cards .mc:hover,.btn:hover{transform:none}
+  .js .sw .w>span{transform:none}
+  .js .rvclip{opacity:1;clip-path:none}
+  .hero-rotator .rot-word{transition:none}
 }
