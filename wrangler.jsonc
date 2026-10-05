@@ -1,0 +1,13 @@
+{
+  // Cloudflare Workers — static site (no Worker script). Files are served from the repo root.
+  // Name must match the Worker in Cloudflare: grownis-site
+  "name": "grownis-site",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "none"
+  },
+  "workers_dev": true,
+  "preview_urls": false
+}

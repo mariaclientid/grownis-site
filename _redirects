@@ -1,0 +1,10 @@
+# old /en/ URLs -> English lives at root
+/en /  301
+/en/ /  301
+/en/tech-ai-events /tech-ai-events/  301
+/en/tech-ai-events/ /tech-ai-events/  301
+# Growth Score quiz removed (Oct 2026)
+/score /  301
+/score/* /  301
+/ru/score /ru/  301
+/ru/score/* /ru/  301
