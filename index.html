@@ -401,11 +401,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   /* классы скрытия для reveal / clip */
   var revSel='.hero h1, .hero .lede, .hero .hero-cta, .hero-rotator, .sec-head p, .what-rows .row > div, .case, .member, .fcard, .principle, .exp-item, .metric-cards .mc, .svc, .pain, .quote-accent, .quote-band, .capstone, .facts, .steplist .row, .svc-flow .row, .svc-rows .row, .cta .contact-lines';
   [].forEach.call(document.querySelectorAll(revSel),function(el){el.classList.add('reveal');});
-  [].forEach.call(document.querySelectorAll('.member .ava'),function(el){el.classList.add('rvclip');});
   void document.documentElement.offsetHeight;
 
   function show(el,d){ if(d) el.style.transitionDelay=d+'ms'; el.classList.add('in'); }
-  var obsSel='.reveal, .sw, .rvclip';
+  var obsSel='.reveal, .sw';
   var io=new IntersectionObserver(function(es){
     es.forEach(function(e){ if(e.isIntersecting){ show(e.target,0); io.unobserve(e.target); } });
   },{threshold:.14, rootMargin:'0px 0px -10% 0px'});

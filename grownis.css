@@ -403,13 +403,6 @@ span.soon{color:var(--stone);border-color:var(--line)}
 .faq-more .faq-inner>details{border-bottom:1px solid var(--line)}
 .faq-more .faq-inner>details:last-child{border-bottom:none}
 
-/* ===== GROWTH SCORE band (не используется) ===== */
-.gs-band{background:var(--paper-card);border:1px solid var(--line);border-radius:var(--radius);padding:40px;display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap}
-.gs-copy{flex:1;min-width:260px}
-.gs-eyebrow{font-family:var(--font-body);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
-.gs-band h2{font-size:clamp(26px,3.4vw,36px);letter-spacing:-.04em;margin-bottom:12px}
-.gs-band p{font-size:15px;color:var(--slate);max-width:520px}
-
 /* ===== CONTACT / CTA ===== */
 .cta{background:var(--paper-card);color:var(--ink);border:1px solid var(--line);border-radius:var(--radius);padding:64px 48px;text-align:left}
 .cta h2{color:var(--ink);font-size:clamp(32px,5vw,60px);letter-spacing:-.05em}
@@ -523,10 +516,6 @@ span.soon{color:var(--stone);border-color:var(--line)}
 .hero-rotator .rot-word{display:inline-block;color:#fff;transition:transform .5s var(--ease),opacity .5s}
 .hero-rotator .rot-word.swap{transform:translateY(-65%);opacity:0}
 
-/* clip-wipe для фото команды */
-.js .rvclip{opacity:0;clip-path:inset(100% 0 0 0);transition:opacity .7s,clip-path 1.4s var(--ease)}
-.js .rvclip.in{opacity:1;clip-path:inset(0 0 0 0)}
-
 /* магнитные элементы */
 .mag{will-change:transform;transition:transform .25s var(--ease)}
 
@@ -536,6 +525,5 @@ span.soon{color:var(--stone);border-color:var(--line)}
   .reveal{opacity:1;transform:none;transition:none}
   .case:hover,.fcard:hover,.member:hover,.principle:hover,.result:hover,.pain:hover,.svc:hover,.metric-cards .mc:hover,.btn:hover{transform:none}
   .js .sw .w>span{transform:none}
-  .js .rvclip{opacity:1;clip-path:none}
   .hero-rotator .rot-word{transition:none}
 }
